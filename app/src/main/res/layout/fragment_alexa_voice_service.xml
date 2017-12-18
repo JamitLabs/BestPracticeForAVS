@@ -1,0 +1,35 @@
+<FrameLayout android:id="@+id/alexa_voice_service_fragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jamitlabs.alexavoiceserviceandroid.AlexaVoiceServiceFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_alexa"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/color_preloader_start"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:id="@+id/linearLayout">
+        <com.jamitlabs.alexavoiceserviceandroid.libraries.recorderview.RecorderView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/recorder"/>
+        <TextView
+            android:id="@+id/profile_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</FrameLayout>

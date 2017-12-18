@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AlexaVoiceServiceAndroid</string>
+
+    <!--Fragment strings-->
+    <string name="fragment_action_send_audio">Send Audio</string>
+
+    <string name="errorFailedLaunchIntent">ERROR: Intent is not serviced by any app</string>
+
+    <string name="alexa_product_id"></string>
+    <string name="alexa_api">https://avs-alexa-na.amazon.com</string>
+    <string name="alexa_api_version">v20160207</string>
+
+</resources>
