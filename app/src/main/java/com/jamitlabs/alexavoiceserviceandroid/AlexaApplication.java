@@ -1,8 +1,8 @@
 package com.jamitlabs.alexavoiceserviceandroid;
 
 import android.app.Application;
+import android.util.Log;
 
-import com.jamitlabs.alexavoiceserviceandroid.libraries.speechutils.Log;
 import com.jamitlabs.alexavoiceserviceandroid.utility.SigningKey;
 
 /**

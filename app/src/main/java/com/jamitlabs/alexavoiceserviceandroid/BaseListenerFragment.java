@@ -4,9 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.jamitlabs.alexavoiceserviceandroid.libraries.alexa.AlexaManager;
-import com.jamitlabs.alexavoiceserviceandroid.libraries.alexa.callbacks.AsyncCallback;
-import com.jamitlabs.alexavoiceserviceandroid.libraries.alexa.interfaces.AvsResponse;
+import com.jamitlabs.alexaconnect.libraries.alexa.AlexaManager;
+import com.jamitlabs.alexaconnect.libraries.alexa.callbacks.AsyncCallback;
+import com.jamitlabs.alexaconnect.libraries.alexa.interfaces.AvsResponse;
 
 import static com.jamitlabs.alexavoiceserviceandroid.global.Constants.PRODUCT_ID;
 

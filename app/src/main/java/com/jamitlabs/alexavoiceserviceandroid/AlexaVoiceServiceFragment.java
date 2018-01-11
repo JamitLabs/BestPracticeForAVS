@@ -23,9 +23,9 @@ import android.widget.Toast;
 import com.amazon.identity.auth.device.AuthError;
 import com.amazon.identity.auth.device.api.Listener;
 import com.amazon.identity.auth.device.api.authorization.AuthorizationManager;
-import com.jamitlabs.alexavoiceserviceandroid.libraries.alexa.requestbody.DataRequestBody;
-import com.jamitlabs.alexavoiceserviceandroid.libraries.recorderview.RecorderView;
-import com.jamitlabs.alexavoiceserviceandroid.libraries.speechutils.RawAudioRecorder;
+import com.jamitlabs.alexaconnect.libraries.alexa.requestbody.DataRequestBody;
+import com.jamitlabs.alexaconnect.libraries.recorderview.RecorderView;
+import com.jamitlabs.alexaconnect.libraries.speechutils.RawAudioRecorder;
 
 import java.io.IOException;
 import okio.BufferedSink;
