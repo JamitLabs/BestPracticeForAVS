@@ -20,7 +20,7 @@ android {
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        signingConfig signingConfigs.releaseConfig
+        //signingConfig signingConfigs.releaseConfig
     }
     buildTypes {
         release {
@@ -30,7 +30,7 @@ android {
         }
         debug {
             versionNameSuffix "Debug"
-            signingConfig signingConfigs.releaseConfig
+            //signingConfig signingConfigs.releaseConfig
         }
     }
 }
@@ -47,8 +47,8 @@ dependencies {
     implementation 'com.intellij:annotations:+@jar'
     implementation 'com.google.code.gson:gson:2.8.0'
     implementation 'commons-io:commons-io:2.5'
-    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
     implementation 'org.greenrobot:eventbus:3.0.0'
     implementation 'org.apache.commons:commons-lang3:3.4'
+    implementation project(':alexaconnect')
     implementation 'com.google.android.gms:play-services-base:11.6.2'
 }
