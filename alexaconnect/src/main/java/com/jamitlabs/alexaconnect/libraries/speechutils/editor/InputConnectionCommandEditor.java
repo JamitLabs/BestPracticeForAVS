@@ -27,7 +27,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import com.jamitlabs.alexaconnect.libraries.speechutils.Log;
-import com.jamitlabs.alexavoiceserviceandroid.R;
+import com.jamitlabs.alexaconnect.R;
 import com.jamitlabs.alexaconnect.libraries.speechutils.utils.HttpUtils;
 import com.jamitlabs.alexaconnect.libraries.speechutils.utils.IntentUtils;
 import com.jamitlabs.alexaconnect.libraries.speechutils.utils.JsonUtils;

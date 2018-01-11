@@ -17,7 +17,7 @@ import android.speech.SpeechRecognizer;
 import android.util.SparseIntArray;
 import android.widget.Toast;
 
-import com.jamitlabs.alexavoiceserviceandroid.R;
+import com.jamitlabs.alexaconnect.R;
 import com.jamitlabs.alexaconnect.libraries.speechutils.Extras;
 import com.jamitlabs.alexaconnect.libraries.speechutils.Log;
 import com.jamitlabs.alexaconnect.libraries.speechutils.editor.Command;

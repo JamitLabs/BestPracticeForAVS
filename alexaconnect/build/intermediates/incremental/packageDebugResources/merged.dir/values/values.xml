@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="buttonFocused1">#ffcc00</color>
+    <color name="buttonFocused2">#ffcc00</color>
+    <color name="buttonNormal1">#ffcc00</color>
+    <color name="buttonNormal2">#996600</color>
+    <color name="buttonPressed1">#996600</color>
+    <color name="buttonPressed2">#ffcc00</color>
+    <color name="buttonRecordingNormal1">#ff4444</color>
+    <color name="buttonRecordingNormal2">#cc0000</color>
+    <color name="buttonStroke">#808080</color>
+    <color name="buttonTranscribingNormal1">#c58be2</color>
+    <color name="buttonTranscribingNormal2">#9933cc</color>
+    <color name="buttonWaiting">#424242</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2C75FF</color>
+    <color name="colorPrimaryDark">#2C75FF</color>
+    <color name="very_transparent">#11404040</color>
+    <string name="alexa_api">https://avs-alexa-na.amazon.com</string>
+    <string name="alexa_api_version">v20160207</string>
+    <string name="alexa_product_id"/>
+    <string name="api_key">eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LmJjYjAwNzIyMmNmYzQyMGFhMDU5MGZmNGFlMTVhODBkIiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi5kM2E4N2I3ODg4N2Y0ZTQxOWExODhjOTZiMTg1NzQzZSIsImlzcyI6IkFtYXpvbiIsInR5cGUiOiJBUElLZXkiLCJwa2ciOiJjb20uamFtaXRsYWJzLmFsZXhhdm9pY2VzZXJ2aWNlYW5kcm9pZCIsImFwcFZhcmlhbnRJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC4zODZhMGJhZGNkZGE0NzRmYTM4NGJkMGIzYzEwMWRhZCIsInRydXN0UG9vbCI6bnVsbCwiYXBwc2lnU2hhMjU2IjoiMDU6MEM6NDA6Q0Q6Mjk6NzA6MTk6MDI6MDI6NkU6Mjc6MDM6QjE6Mjc6NjA6OEI6QjU6NDU6RDY6NkQ6RUY6QTY6MTA6RTQ6NUY6QUQ6NDM6QjE6NDc6OEU6MjU6MDMiLCJhcHBzaWciOiI3RDoxMTo3RTpBNjo0RDo1NDpFMDpBNTpGNToyNzoxMzpEMDo5ODo2Nzo4QzowOCIsImFwcElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50LjM4NmEwYmFkY2RkYTQ3NGZhMzg0YmQwYjNjMTAxZGFkIiwiaWQiOiI4YTAxMTc4OS05YTZiLTRkODMtYWNkYi04ZTAyNDRmOTFlZmUiLCJpYXQiOiIxNTE1NjgzMjI4NzgyIn0=.mVUQm9p+gHvjAV+LjGAN6zfMwhVH3zk5xdDOp8BBq6EurIJfU3HoIQ9S+uLJFygBnuOQAq9l8obB57SkUVRSwywBWNsHcsIAcCTh/FB4CNbAjEXKe5GomYOy1RyqToRgMWsYVy1/cjCGrspCf+QR4H4bb2+RdBiBp9pMrYod7Yh6q1NZXaFceEHwmSg+7CUPP/QgcYLboPXvmVbNFx1NCRhrtKLTekc5h/bL9F5RU4P+UW+qvMdihZUYofefKqhWEwjd4um7ENkKGRdKnUqPeLSLjbuQhKUW00uFaKc5fhK0eIA2nbT9xDxfb02uII/LThtDcGsSfRKvb1XKVwNFxg==</string>
     <string name="app_name">AlexaConnect</string>
+    <string name="errorFailedLaunchIntent">ERROR: Intent is not serviced by any app</string>
+    <string name="fragment_action_send_audio">Send Audio</string>
+    <string name="keyClipboardMap" translatable="false">keyClipboardMap</string>
 </resources>
