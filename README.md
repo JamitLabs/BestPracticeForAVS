@@ -9,7 +9,7 @@ So let's get started.
 2. [Android Studio](https://developer.android.com/studio/index.html)
 
 ## Getting Started
-The sample Application includes a login screen where you have to login into your Amazon Account. After that you can already use your personalized Alexa.  
+The sample Application includes a login screen where you have to log in into your Amazon Account. After that you can already use your personalized Alexa.  
 If you want to Test this Application there are some steps that you need to do before you can use this project.  
 
 **Step 1:**
@@ -17,7 +17,7 @@ If you want to Test this Application there are some steps that you need to do be
 
 1. Log in to the [developer console](https://developer.amazon.com) and move to the tab ***Apps & Services***
 2. Now move to the Security Profiles Tag
-![MacDown ScreenShot](/PATH/SCREENSHOT/SecurityProfile.png)
+![MacDown ScreenShot](MacDownPictures/Securityprofile.png)
 3. Give your Security Profile a Name (e.g. *"Android AVS Sample App"*) and a short description
 4. You must enter a Privacy Notice URL. For this example we just use *"http://www.example.com/privacy.html"*
 5. In addition you can upload an image but that is not really necessary for this example
@@ -25,7 +25,7 @@ If you want to Test this Application there are some steps that you need to do be
 **Step 2:**  
 ### _Create an AVS product_
 
-1. Log in to the [developer console](https://developer.amazon.com) and move to the tab ***"Alexa"***. ![MacDown ScreenShot](/PATH/SCREENSHOT/DeveloperConsole.png)
+1. Log in to the [developer console](https://developer.amazon.com) and move to the tab ***"Alexa"***. ![MacDown ScreenShot](MacDownPictures/DeveloperConsole.png)
 2. Press on GetStarted and click on the ["Create Product"](https://developer.amazon.com/avs/home.html#/avs/products/new) Button in the top right corner.  
 3. Now you have to fill in the fields
   - As a productname you can take e.g. *"AlexaVoiceServiceAndroid"*
