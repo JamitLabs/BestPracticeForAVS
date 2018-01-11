@@ -5,7 +5,7 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.SystemClock;
 
-import com.jamitlabs.alexavoiceserviceandroid.R;
+import com.jamitlabs.alexaconnect.R;
 
 // TODO: add a method that calls back when audio is finished
 public class AudioCue {

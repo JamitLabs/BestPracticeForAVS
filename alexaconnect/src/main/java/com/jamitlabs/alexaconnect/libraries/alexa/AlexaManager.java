@@ -34,7 +34,7 @@ import okhttp3.Call;
 import okhttp3.Response;
 import okio.BufferedSink;
 
-import com.jamitlabs.alexavoiceserviceandroid.R;
+import com.jamitlabs.alexaconnect.R;
 
 import static com.jamitlabs.alexaconnect.libraries.alexa.AuthorizationManager.createCodeVerifier;
 import static com.jamitlabs.alexaconnect.libraries.alexa.interfaces.response.ResponseParser.getBoundary;

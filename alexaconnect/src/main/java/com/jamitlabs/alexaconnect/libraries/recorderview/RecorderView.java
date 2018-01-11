@@ -10,7 +10,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.jamitlabs.alexavoiceserviceandroid.R;
+import com.jamitlabs.alexaconnect.R;
 
 /**
  * @author willb_000 on 5/5/2016.
