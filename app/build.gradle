@@ -51,5 +51,4 @@ dependencies {
     implementation 'org.greenrobot:eventbus:3.0.0'
     implementation 'org.apache.commons:commons-lang3:3.4'
     implementation 'com.google.android.gms:play-services-base:11.6.2'
-    implementation files('/PATH/TO/YOUR/login-with-amazon-sdk.jar')
 }
