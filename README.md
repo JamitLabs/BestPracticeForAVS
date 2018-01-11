@@ -17,7 +17,7 @@ If you want to Test this Application there are some steps that you need to do be
 
 1. Log in to the [developer console](https://developer.amazon.com) and move to the tab ***Apps & Services***
 2. Now move to the Security Profiles Tag
-![MacDown ScreenShot](MacDownPictures/Securityprofile.png)
+![MacDown ScreenShot](MacDownPictures/SecurityProfile.png)
 3. Give your Security Profile a Name (e.g. *"Android AVS Sample App"*) and a short description
 4. You must enter a Privacy Notice URL. For this example we just use *"http://www.example.com/privacy.html"*
 5. In addition you can upload an image but that is not really necessary for this example
