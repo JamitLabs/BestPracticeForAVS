@@ -6,6 +6,6 @@ package com.jamitlabs.alexavoiceserviceandroid.global;
 
 public class Constants {
 
-    public static final String PRODUCT_ID = "alexa_voice_service_android_jamit_labs";
+    public static final String PRODUCT_ID = "your_product_id";
 
 }
