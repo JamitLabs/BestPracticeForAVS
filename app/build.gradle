@@ -20,7 +20,7 @@ android {
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        //signingConfig signingConfigs.releaseConfig
+        signingConfig signingConfigs.releaseConfig
     }
     buildTypes {
         release {
@@ -30,7 +30,7 @@ android {
         }
         debug {
             versionNameSuffix "Debug"
-            //signingConfig signingConfigs.releaseConfig
+            signingConfig signingConfigs.releaseConfig
         }
     }
 }

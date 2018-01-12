@@ -25,8 +25,23 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="buttonFocused1">#ffcc00</color>
+    <color name="buttonFocused2">#ffcc00</color>
+    <color name="buttonNormal1">#ffcc00</color>
+    <color name="buttonNormal2">#996600</color>
+    <color name="buttonPressed1">#996600</color>
+    <color name="buttonPressed2">#ffcc00</color>
+    <color name="buttonRecordingNormal1">#ff4444</color>
+    <color name="buttonRecordingNormal2">#cc0000</color>
+    <color name="buttonStroke">#808080</color>
+    <color name="buttonTranscribingNormal1">#c58be2</color>
+    <color name="buttonTranscribingNormal2">#9933cc</color>
+    <color name="buttonWaiting">#424242</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2C75FF</color>
+    <color name="colorPrimaryDark">#2C75FF</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -79,6 +94,7 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="very_transparent">#11404040</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -477,6 +493,7 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="errorFailedLaunchIntent">ERROR: Intent is not serviced by any app</string>
     <string name="fragment_action_send_audio">Send Audio</string>
+    <string name="keyClipboardMap" translatable="false">keyClipboardMap</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
