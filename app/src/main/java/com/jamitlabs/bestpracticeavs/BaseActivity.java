@@ -1,4 +1,4 @@
-package com.jamitlabs.alexavoiceserviceandroid;
+package com.jamitlabs.bestpracticeavs;
 
 import android.app.Instrumentation;
 import android.content.Context;
@@ -38,7 +38,7 @@ import com.jamitlabs.alexaconnect.libraries.alexa.interfaces.speechsynthesizer.A
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.jamitlabs.alexavoiceserviceandroid.global.Constants.PRODUCT_ID;
+import static com.jamitlabs.bestpracticeavs.global.Constants.PRODUCT_ID;
 
 /**
  * Created by dariuschdideban on 07.12.17.

@@ -1,9 +1,9 @@
-package com.jamitlabs.alexavoiceserviceandroid;
+package com.jamitlabs.bestpracticeavs;
 
 import android.app.Application;
 import android.util.Log;
 
-import com.jamitlabs.alexavoiceserviceandroid.utility.SigningKey;
+import com.jamitlabs.bestpracticeavs.utility.SigningKey;
 
 /**
  * Created by dariuschdideban on 07.12.17.

@@ -1,4 +1,4 @@
-package com.jamitlabs.alexavoiceserviceandroid;
+package com.jamitlabs.bestpracticeavs;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,7 +8,7 @@ import com.jamitlabs.alexaconnect.libraries.alexa.AlexaManager;
 import com.jamitlabs.alexaconnect.libraries.alexa.callbacks.AsyncCallback;
 import com.jamitlabs.alexaconnect.libraries.alexa.interfaces.AvsResponse;
 
-import static com.jamitlabs.alexavoiceserviceandroid.global.Constants.PRODUCT_ID;
+import static com.jamitlabs.bestpracticeavs.global.Constants.PRODUCT_ID;
 
 /**
  * Created by dariuschdideban on 07.12.17.
