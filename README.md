@@ -13,7 +13,12 @@ The sample Application includes a login screen where you have to log in into you
 If you want to Test this Application there are some steps that you need to do before you can use this project. 
 
 ### **_Step 1: Download the project_** 
-1. Download this project as a zip and 
+1. Download this project and unzip it.
+2. Open Android Studio and choose **"Open an existing Android Studio Project"**. Move to the downloaded project and select it.
+3. Now you have to do three things
+ - First of all you need to go into the assets folder and open the api_key.txt file. Here you replace the text with your api_key.
+ - Next open the Constants class that you can find under globals. Here type in your product_id that you can find in your developer console in your product.
+ - Last you have to open the build.gradle and fill in the values for your keystore.
 
 ### **_Step 2: Create an AVS product_**
 1. Go to [developer console](https://developer.amazon.com) and press on ***"Developer Console"*** on the top right corner. Afterwards log in with your Amazon Developer Account.
