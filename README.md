@@ -51,6 +51,8 @@ If you want to Test this Application there are some steps that you need to do be
 6. Now open your build.gradle and there you should fill in your android keystore details. 
 7. Before we can build the project we still need to add an api_key. Therefore let your project open and move back to the [developer console](https://developer.amazon.com). Go to the developer Console and choose "Alexa" and then go on Get Started and then press behind your product "manage". 
 
+Api key einfügen und keystore einfügen
+
 
 
 https://developer.amazon.com/docs/login-with-amazon/register-android.html
