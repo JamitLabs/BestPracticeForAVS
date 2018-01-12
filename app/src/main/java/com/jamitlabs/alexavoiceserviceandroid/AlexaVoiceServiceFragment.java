@@ -177,13 +177,23 @@ public class AlexaVoiceServiceFragment extends BaseListenerFragment {
         AuthorizationManager.signOut(getContext(), new Listener<Void, AuthError>() {
             @Override
             public void onSuccess(Void aVoid) {
-                Toast.makeText(getContext(), "Logout succesfully", Toast.LENGTH_LONG).show();
-                ((AlexaVoiceServiceActivity) getActivity()).navigate(LoginFragment.class);
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getContext(), "Logout succesfully", Toast.LENGTH_LONG).show();
+                        ((AlexaVoiceServiceActivity) getActivity()).navigate(LoginFragment.class);
+                    }
+                });
             }
 
             @Override
             public void onError(AuthError authError) {
-                Toast.makeText(getContext(), "Logout not possible", Toast.LENGTH_LONG).show();
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getContext(), "Logout not possible", Toast.LENGTH_LONG).show();
+                    }
+                });
             }
         });
     }

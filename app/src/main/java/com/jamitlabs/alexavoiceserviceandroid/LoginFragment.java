@@ -67,20 +67,35 @@ public class LoginFragment extends Fragment {
         requestContext.registerListener(new AuthorizeListener() {
             @Override
             public void onSuccess(AuthorizeResult authorizeResult) {
-                ((AlexaVoiceServiceActivity) getActivity()).navigate(AlexaVoiceServiceFragment.class);
-                fetchUserProfile();
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        ((AlexaVoiceServiceActivity) getActivity()).navigate(AlexaVoiceServiceFragment.class);
+                        fetchUserProfile();
+                    }
+                });
             }
 
             @Override
             public void onError(AuthError authError) {
-                Toast.makeText(getContext(), "Error during Authorization. Please try again!", Toast.LENGTH_LONG).show();
-                ((AlexaVoiceServiceActivity) getActivity()).navigate(LoginFragment.class);
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getContext(), "Error during Authorization. Please try again!", Toast.LENGTH_LONG).show();
+                        ((AlexaVoiceServiceActivity) getActivity()).navigate(LoginFragment.class);
+                    }
+                });
             }
 
             @Override
             public void onCancel(AuthCancellation authCancellation) {
-                Toast.makeText(getContext(), "Authorization cancelled!", Toast.LENGTH_LONG).show();
-                ((AlexaVoiceServiceActivity) getActivity()).navigate(LoginFragment.class);
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getContext(), "Authorization cancelled!", Toast.LENGTH_LONG).show();
+                        ((AlexaVoiceServiceActivity) getActivity()).navigate(LoginFragment.class);
+                    }
+                });
             }
         });
         initializeUI();
@@ -98,18 +113,28 @@ public class LoginFragment extends Fragment {
         Scope[] scopes = {ProfileScope.profile(), ProfileScope.postalCode()};
         AuthorizationManager.getToken(getContext(), scopes, new Listener<AuthorizeResult, AuthError>() {
             @Override
-            public void onSuccess(AuthorizeResult authorizeResult) {
-                if (authorizeResult.getAccessToken() != null) {
-                    fetchUserProfile();
-                    Toast.makeText(getContext(), "User already logged in", Toast.LENGTH_LONG).show();
-                } else {
-
-                }
+            public void onSuccess(final AuthorizeResult authorizeResult) {
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (authorizeResult.getAccessToken() != null) {
+                            fetchUserProfile();
+                            Toast.makeText(getContext(), "User already logged in.", Toast.LENGTH_LONG).show();
+                        } else {
+                            Log.i("OnStartMethod", "User is not logged in.");
+                        }
+                    }
+                });
             }
 
             @Override
-            public void onError(AuthError authError) {
-                Toast.makeText(getActivity().getApplicationContext(), authError.toString(), Toast.LENGTH_LONG).show();
+            public void onError(final AuthError authError) {
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getActivity().getApplicationContext(), authError.toString(), Toast.LENGTH_LONG).show();
+                    }
+                });
             }
         });
     }
