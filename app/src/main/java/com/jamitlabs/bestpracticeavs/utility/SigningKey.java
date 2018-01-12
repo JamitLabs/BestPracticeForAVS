@@ -1,4 +1,4 @@
-package com.jamitlabs.alexavoiceserviceandroid.utility;
+package com.jamitlabs.bestpracticeavs.utility;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;

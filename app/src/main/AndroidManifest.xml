@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jamitlabs.alexavoiceserviceandroid">
+    package="com.jamitlabs.bestpracticeavs">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -32,7 +32,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="com.jamitlabs.alexavoiceserviceandroid" android:scheme="amzn"/>
+                <data android:host="com.jamitlabs.bestpracticeavs" android:scheme="amzn"/>
             </intent-filter>
         </activity>
     </application>

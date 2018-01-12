@@ -1,4 +1,4 @@
-package com.jamitlabs.alexavoiceserviceandroid;
+package com.jamitlabs.bestpracticeavs;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;

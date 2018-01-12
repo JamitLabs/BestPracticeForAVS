@@ -13,7 +13,7 @@ android {
     }
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.jamitlabs.alexavoiceserviceandroid"
+        applicationId "com.jamitlabs.bespracticeavs"
         minSdkVersion 22
         targetSdkVersion 26
         versionCode 1

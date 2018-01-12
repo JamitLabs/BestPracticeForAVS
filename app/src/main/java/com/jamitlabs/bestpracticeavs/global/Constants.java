@@ -1,4 +1,4 @@
-package com.jamitlabs.alexavoiceserviceandroid.global;
+package com.jamitlabs.bestpracticeavs.global;
 
 /**
  * Created by dariuschdideban on 07.12.17.
