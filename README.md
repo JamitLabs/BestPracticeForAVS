@@ -54,11 +54,11 @@ If you want to Test this Application there are some steps that you need to do be
 
 ## Using the Library
 1. If you want to design your own project there are a couple of things that you should not forget to implement.  
- - First of all you need to implement a login Screen, because you need to have a registered Alexa. To implement this, follow these following instructions [Login Screen](https://developer.amazon.com/docs/login-with-amazon/install-sdk-android.html).
+ - First of all you need to implement a login Screen, because you need to have a registered Alexa. To implement this, follow these following instructions [Login Screen](https://developer.amazon.com/docs/login-with-amazon/install-sdk-android.html). 
  - You need to create the assets folder in the main folder with a file called "*`api_key.txt`"*. There you have to fill in your api key that you get while creating the security profile.
  - You also need a global folder with a Constants class, where you need to add this following line. "*`public static final String product_id="your_product_id";`"*.
  - In addition you need a release keystore that you need to add in the **"build.gradle"** to work with the libraries.
-2. Add the library to your imports. "*`implementation 'com.jamitlabs.alexaconnect'`*"
+2. Add the library to your imports. "*`implementation 'com.github.DariuschDideban::BestPracticeForAVS:v1.0'`*"
 
 
 
