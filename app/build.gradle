@@ -44,11 +44,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    implementation 'com.intellij:annotations:+@jar'
-    implementation 'com.google.code.gson:gson:2.8.0'
-    implementation 'commons-io:commons-io:2.5'
-    implementation 'org.greenrobot:eventbus:3.0.0'
-    implementation 'org.apache.commons:commons-lang3:3.4'
     implementation project(':alexaconnect')
-    implementation 'com.google.android.gms:play-services-base:11.6.2'
 }
