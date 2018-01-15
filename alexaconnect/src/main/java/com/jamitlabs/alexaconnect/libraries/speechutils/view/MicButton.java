@@ -3,13 +3,14 @@ package com.jamitlabs.alexaconnect.libraries.speechutils.view;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
+import android.support.v7.widget.AppCompatImageButton;
 import android.util.AttributeSet;
 import android.view.HapticFeedbackConstants;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.ImageButton;
+
 
 import com.jamitlabs.alexaconnect.R;
 
@@ -17,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class MicButton extends ImageButton {
+public class MicButton extends AppCompatImageButton {
 
     public enum State {
         // Initial state
