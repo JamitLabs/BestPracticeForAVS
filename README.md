@@ -10,15 +10,16 @@ So let's get started.
 
 ## Getting Started
 The sample Application includes a login screen where you have to log in into your Amazon Account. After that you can almost use your personalized Alexa.  
-If you want to Test this Application there are some steps that you need to do before you can use this project. 
+If you want to Test this Application there are some steps that you need to do before you can use this project. If you just want to use the library and make it your own project go to the Use Library part of this Readme.
 
 ### **_Step 1: Download the project_** 
 1. Download this project and unzip it.
 2. Open Android Studio and choose **"Open an existing Android Studio Project"**. Move to the downloaded project and select it.
 3. Now you have to do three things
- - First of all you need to go into the assets folder and open the api_key.txt file. Here you replace the text with your api_key.
- - Next open the Constants class that you can find under globals. Here type in your product_id that you can find in your developer console in your product.
- - Last you have to open the build.gradle and fill in the values for your keystore.
+ - First of all you need to go into the ***"assets"*** folder and open the ***"api_key.txt"*** file. Here you replace the text with your api key.
+ - Next open the ***"Constants"*** class that you can find under global. Here type in your *"`product_id`"* that you can find in your developer console when you open your product. ![MacDown ScreenShot](MacDownPictures/ProductId.png)
+ - Last you have to open the build.gradle and fill in the values for your keystore. If you don't have a keystore yet, then follow these instructions to create one [Android Keystore](https://developer.android.com/studio/publish/app-signing.html).
+4. Execute the project, sign in and talk to Alexa.
 
 ### **_Step 2: Create an AVS product_**
 1. Go to [developer console](https://developer.amazon.com) and press on ***"Developer Console"*** on the top right corner. Afterwards log in with your Amazon Developer Account.
@@ -51,21 +52,14 @@ If you want to Test this Application there are some steps that you need to do be
  - In addition you can upload an image but that is not really necessary for this example. 
  - Press on Save.
 
-
-//OLD
-
-### **Step 4:**  
-### _Download the Project_
-1. First of all we need to download the [login-with-amazon-sdk.jar](https://amazonadsi-a.akamaihd.net/public/Amazon-Mobile-App-SDK-by-Platform/Amazon-Android-SDKs.zip)
-2. When the download is finish unzip the file and open the folder. In it you should see a subfolder called *"LoginWithAmazon"*. Go into the folder and there you should see a file called *"login-with-amazon-sdk.jar"*. 
-3. Now download the project.zip and extract it. Copy the login-with-amazon-sdk.jar into the downloaded and extracted zip. 
-4. Open Android Studio and choose "*Open an existing Android Studio Project"*. Choose the downloaded project and open it. 
-5. On the left side choose Project View, then make a right-click on the "*login-with-amazon-sdk.jar"*  and press on "*Add as Library"*.
-6. Now open your build.gradle and there you should fill in your android keystore details. 
-7. Before we can build the project we still need to add an api_key. Therefore let your project open and move back to the [developer console](https://developer.amazon.com). Go to the developer Console and choose "Alexa" and then go on Get Started and then press behind your product "manage". 
-
-Api key einfügen und keystore einfügen
+## Using the Library
+1. If you want to design your own project there are a couple of things that you should not forget to implement.  
+ - First of all you need to implement a login Screen, because you need to have a registered Alexa. To implement this, follow these following instructions [Login Screen](https://developer.amazon.com/docs/login-with-amazon/install-sdk-android.html).
+ - You need to create the assets folder in the main folder with a file called "*`api_key.txt`"*. There you have to fill in your api key that you get while creating the security profile.
+ - You also need a global folder with a Constants class, where you need to add this following line. "*`public static final String product_id="your_product_id";`"*.
+ - In addition you need a release keystore that you need to add in the **"build.gradle"** to work with the libraries.
+2. Add the library to your imports. "*`implementation 'com.jamitlabs.alexaconnect'`*"
 
 
 
-https://developer.amazon.com/docs/login-with-amazon/register-android.html
+
