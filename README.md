@@ -12,16 +12,7 @@ So let's get started.
 The sample Application includes a login screen where you have to log in into your Amazon Account. After that you can almost use your personalized Alexa.  
 If you want to Test this Application there are some steps that you need to do before you can use this project. If you just want to use the library and make it your own project go to the Use Library part of this Readme.
 
-### **_Step 1: Download the project_** 
-1. Download this project and unzip it.
-2. Open Android Studio and choose **"Open an existing Android Studio Project"**. Move to the downloaded project and select it.
-3. Now you have to do three things
- - First of all you need to go into the ***"assets"*** folder and open the ***"api_key.txt"*** file. Here you replace the text with your api key.
- - Next open the ***"Constants"*** class that you can find under global. Here type in your *"`product_id`"* that you can find in your developer console when you open your product. ![MacDown ScreenShot](MacDownPictures/ProductId.png)
- - Last you have to open the build.gradle and fill in the values for your keystore. If you don't have a keystore yet, then follow these instructions to create one [Android Keystore](https://developer.android.com/studio/publish/app-signing.html).
-4. Execute the project, sign in and talk to Alexa.
-
-### **_Step 2: Create an AVS product_**
+### **_Step 1: Create an AVS product_**
 1. Go to [developer console](https://developer.amazon.com) and press on ***"Developer Console"*** on the top right corner. Afterwards log in with your Amazon Developer Account.
 2. Move to the tab ***"Alexa"*** and press on ***"Get Started"*** under ***"Alexa Voice Service"***.
 3. On the top right corner press on the blue button **"CREATE PRODUCT"**.
@@ -51,6 +42,15 @@ If you want to Test this Application there are some steps that you need to do be
  - You must enter a Privacy Notice URL. For this example we just use *"`http://www.example.com/privacy.html`"*.
  - In addition you can upload an image but that is not really necessary for this example. 
  - Press on Save.
+
+### **_Step 2: Download the project_** 
+1. Download this project and unzip it.
+2. Open Android Studio and choose **"Open an existing Android Studio Project"**. Move to the downloaded project and select it.
+3. Now you have to do three things
+ - First of all you need to go into the ***"assets"*** folder and open the ***"api_key.txt"*** file. Here you replace the text with your api key.
+ - Next open the ***"Constants"*** class that you can find under global. Here type in your *"`product_id`"* that you can find in your developer console when you open your product. ![MacDown ScreenShot](MacDownPictures/ProductId.png)
+ - Last you have to open the build.gradle and fill in the values for your keystore. If you don't have a keystore yet, then follow these instructions to create one [Android Keystore](https://developer.android.com/studio/publish/app-signing.html).
+4. Execute the project, sign in and talk to Alexa.
 
 ## Using the Library
 1. If you want to design your own project there are a couple of things that you should not forget to implement.  
