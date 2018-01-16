@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AlexaVoiceServiceAndroid</string>
+    <string name="app_name">BestPracticeForAVS</string>
 
     <!--Fragment strings-->
     <string name="fragment_action_send_audio">Send Audio</string>
