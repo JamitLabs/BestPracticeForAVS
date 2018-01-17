@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BestPracticeForAVS</string>
+    <string name="app_name">BestPracticeAVS</string>
 
     <!--Fragment strings-->
     <string name="fragment_action_send_audio">Send Audio</string>

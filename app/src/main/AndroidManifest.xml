@@ -13,7 +13,6 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AlexaVoiceServiceActivity"
@@ -32,7 +31,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="com.jamitlabs.bestpracticeavs" android:scheme="amzn"/>
+                <data android:host="${applicationId}" android:scheme="amzn"/>
             </intent-filter>
         </activity>
     </application>
