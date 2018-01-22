@@ -68,7 +68,7 @@ public class LoginFragment extends Fragment {
                 getActivity().runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        fetchUserProfile();
+                        getActivity().recreate();
                     }
                 });
             }
