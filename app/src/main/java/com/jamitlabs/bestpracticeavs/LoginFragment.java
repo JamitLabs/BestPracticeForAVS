@@ -68,7 +68,6 @@ public class LoginFragment extends Fragment {
                 getActivity().runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        ((AlexaVoiceServiceActivity) getActivity()).navigate(AlexaVoiceServiceFragment.class);
                         fetchUserProfile();
                     }
                 });
@@ -117,7 +116,7 @@ public class LoginFragment extends Fragment {
                     public void run() {
                         if (authorizeResult.getAccessToken() != null) {
                             fetchUserProfile();
-                            Toast.makeText(getContext(), "User already logged in.", Toast.LENGTH_LONG).show();
+                            Log.i("OnStartMethod", "User is logged in.");
                         } else {
                             Log.i("OnStartMethod", "User is not logged in.");
                         }
