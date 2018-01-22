@@ -22,6 +22,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoginWebViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="na.account.amazon.com"
+                    android:pathPattern="/ap/oa"/>
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.amazon.identity.auth.device.workflow.WorkflowActivity"
             android:allowTaskReparenting="true"
