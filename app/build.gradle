@@ -13,7 +13,7 @@ android {
     }
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.jamitlabs.bespracticeavs"
+        applicationId "com.jamitlabs.bestpracticeavs"
         minSdkVersion 22
         targetSdkVersion 26
         versionCode 1
